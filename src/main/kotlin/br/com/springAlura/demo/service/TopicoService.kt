@@ -46,6 +46,7 @@ class TopicoService(
                 id = form.id,
                 titulo = form.titulo,
                 mensagem = form.mensagem,
+
                 autor = topico.autor,
                 curso = topico.curso,
                 respostas = topico.respostas,
