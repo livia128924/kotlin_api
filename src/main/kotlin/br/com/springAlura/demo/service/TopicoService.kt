@@ -52,6 +52,7 @@ class TopicoService(
                 status = topico.status,
                 dataCriacao = topico.dataCriacao
         ))
+
     }
 
     fun deletar(id: Long) {
